@@ -2,7 +2,7 @@ export const dynamic = "force-dynamic";
 async function fetchData() {
   console.log('Fetching data,...');
 
-  const res = await fetch('/api/timestamp');
+  const res = await fetch(`${process.env.API_BASE_URL}/api/timestamp`)
 
   return res.json();
 }
