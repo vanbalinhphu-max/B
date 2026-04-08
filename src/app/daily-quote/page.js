@@ -6,6 +6,7 @@ import { Footer } from "./Footer";
 
 
 const DailyQuotePage = async () => {
+  //aaq
   return (
     <>
       <h1>Daily quote</h1>
