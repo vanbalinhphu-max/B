@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { getNewQuote } from "./action";
 
 async function fetchDailyQuote() {
