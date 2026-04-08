@@ -2,7 +2,8 @@ export const dynamic = "force-dynamic";
 import { getNewQuote } from "./action";
 
 async function fetchDailyQuote() {
-  const res = await fetch(`${process.env.API_BASE_URL}/api/quote`, {
+  // const res = await fetch(`${process.env.API_BASE_URL}/api/quote`, {
+  const res = await fetch(`/api/quote`, {
     cache: "force-cache",
     next: {
       tags: ["quote"],
